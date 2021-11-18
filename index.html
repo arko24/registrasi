@@ -102,11 +102,64 @@
 	  width: 100%;
 	  height: 100%;
 	}
+	    .content{
+    /*background-image: url("./pic/theater1.jpg");*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70px;
+    }
+
+     /*Extra small devices (portrait phones, less than 576px)*/
+	@media (max-width: 575.98px) {
+	img {
+	        margin-top: 65px;
+	        width: 250px;
+	        height: 380px;	 
+	    }	
+	}
+
+	/*// Small devices (landscape phones, 576px and up)*/
+	@media (min-width: 576px) and (max-width: 767.98px) {
+		img {
+	        margin-top: 65px;
+	        width: 300px;
+	        height: 390px; 
+	    }
+	}
+
+	/*// Medium devices (tablets, 768px and up)*/
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		img {
+	        margin-top: 65px;
+	        width: 450px;
+	        height: 390px;	 
+	    }
+	}
+
+	/*// Large devices (desktops, 992px and up)*/
+	@media (min-width: 992px) and (max-width: 1199.98px) { 
+		img {
+	        margin-top: 65px;
+	        width: 600px;
+	        height: 390px;	 
+	    }
+	 }
+
+	/*// Extra large devices (large desktops, 1200px and up)*/
+	@media (min-width: 1200px) {
+		img {
+	    	margin-top: 65px;
+	        width: 800px;
+	        height: 390px;
+	        }
+	}
 </style>
 </head>
 <div class="container">
+<div class="content">
 <iframe class="responsive-iframe" id="oak-embed" style="display: block; margin: 0px auto; border: 0px none; pointer-events: none;" src="https://embed-countdown.onlinealarmkur.com/id/#2022-01-01T00:00:00@Asia%2FJakarta">
 </iframe>
+</div>
 </div>
 <body>
 <div class="text-center">
