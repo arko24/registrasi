@@ -5,22 +5,24 @@
     </div>
     <div class="row clearfix">
       <div class="">
-        <form>
-            <form action="https://docs.google.com/forms/d/e/1FAIpQLSfJ8E8ifFtptxocA8hybWKOtRTGIXh8X1m-OiY2-fwkARR3-Q/formResponse"
-            target="_self"
-            id="bootstrapForm"
-            method="POST">
-      
-          <!-- Field type: "short" id: "206498732" -->
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfJ8E8ifFtptxocA8hybWKOtRTGIXh8X1m-OiY2-fwkARR3-Q/formResponse"
+      target="_self"
+      id="bootstrapForm"
+      method="POST">
+    <fieldset>
+        <h2>e Registrasi<br><small></small></h2>
+    </fieldset>
+
+
+         <!-- Field type: "short" id: "206498732" -->
           <fieldset>
               <legend for="206498732">Nama</legend>
               <div class="form-group">
                   <input id="433985308" type="text" name="entry.433985308" class="form-control" required>
               </div>
           </fieldset>
-      
-      
-          <!-- Field type: "short" id: "1537391277" -->
+ 
+           <!-- Field type: "short" id: "1537391277" -->
           <fieldset>
               <legend for="1537391277">email</legend>
               <div class="form-group">
@@ -36,8 +38,8 @@
                   <input id="354162776" type="text" name="entry.354162776" class="form-control" required>
               </div>
           </fieldset>
-      
-      
+
+
           <!-- Field type: "choices" id: "1657883784" -->
           <fieldset>
               <legend for="1657883784">Country</legend>
@@ -81,7 +83,6 @@
               </div>
           </fieldset>
       
-      
           <!-- Field type: "short" id: "1404437511" -->
           <fieldset>
               <legend for="1404437511">organization</legend>
@@ -89,19 +90,19 @@
                   <input id="1710647573" type="text" name="entry.1710647573" class="form-control" required>
               </div>
           </fieldset>
-      
-          <input type="hidden" name="fvv" value="1">
-          <input type="hidden" name="fbzx" value="6345183408165635312">
-          <!--
-              CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
-              This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
-              Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
-              We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
-          -->
-          <input type="hidden" name="pageHistory" value="0">
-      
-          <input class="btn btn-primary" type="submit" value="Submit">
-        </form>
+
+    <input type="hidden" name="fvv" value="1">
+    <input type="hidden" name="fbzx" value="6345183408165635312">
+    <!--
+        CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+        This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+        Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+        We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+    -->
+    <input type="hidden" name="pageHistory" value="0">
+
+    <input class="btn btn-primary" type="submit" value="Submit">
+</form>
       </div>
     </div>
   </div>
